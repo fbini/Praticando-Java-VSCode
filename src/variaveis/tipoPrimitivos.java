@@ -1,4 +1,5 @@
-public class Main {
+package variaveis;
+public class tipoPrimitivos {
     public static void main(String[] args) {
         System.out.println("Olá VSCODEEEEEEE"); 
 
@@ -37,23 +38,8 @@ public class Main {
         String autor = "Ingrid B";
         int numeroDePaginas = 50;
         double precoDoLivro = 19.99;
-        char categoria = 'F';
 
-        String categoriaDescricao;
-        
-        if (categoria == 'F' ) {
-            categoriaDescricao = "Ficção"; 
-        } else if(categoria == 'N') {
-            categoriaDescricao = "Não-ficção";
-        } else if(categoria == 'T'){
-            categoriaDescricao = "Tecnologia"; 
-        } else if (categoria == 'H') {
-            categoriaDescricao = "História";
-        } else {
-            System.out.println("Não válido");
-        }
-
-        System.out.println("Livro cadastrado: " + titulo + ", de " + autor + ". Ele possui " + numeroDePaginas + ", custa R$" + precoDoLivro + " e pertence á categoria " + categoriaDescricao + ",");
+        System.out.println("Livro cadastrado: " + titulo + ", de " + autor + ". Ele possui " + numeroDePaginas + ", custa R$" + precoDoLivro + " e pertence á categoria ");
 
 
     }
